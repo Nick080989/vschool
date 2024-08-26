@@ -1,0 +1,41 @@
+h2 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  margin-top: 0;
+  line-height: 60px;
+  text-decoration: underline;
+}
+
+.Article-Title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px
+}
+
+.main-article {
+  display: inline-block;
+  width: 30%;
+  margin-right: 20px;
+  line-height: 20px;
+  padding-top: 5px;
+}
+
+.sub-article {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.other-article {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}

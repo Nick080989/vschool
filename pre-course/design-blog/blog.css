@@ -1,0 +1,80 @@
+body {
+  background-color: lightblue;
+}
+.navbar {
+  width: 100%;
+  background-color: lightgreen;
+  height: 50px;
+  border: 3px solid black;
+  font-size: 50px;
+  vertical-align: center;
+  line-height: 47px;
+  position: fixed;
+  top: 5px;
+  left: 0;
+}
+.home {
+  position: relative;
+  left: 10px;
+}
+.menu {
+  position: relative;
+  left:38%
+}
+.about {
+  position: relative;
+  left: 80%;
+}
+
+.blog-post {
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 20px; 
+  border: 3px dotted black;
+  background-color: lightgrey;
+}
+.author-date p {
+  display: inline;
+  margin-right: 5px;
+  line-height: 0px;
+  position: relative;
+  right: 320px;
+}
+.name {
+  color: red;
+  font-size: 18px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.date {
+  font-size: 14px;
+}
+.comments {
+  font-size: 14px;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.title {
+  line-height: 0px;
+  margin-bottom: 40px;
+}
+.content p {
+  font-size: 19px;
+  line-height: 25px;
+}
+.blog-img {
+  height: 250px;
+  float: right;
+  margin: 0 0 15px 15px
+}
+.blog-post2 {
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 20px; 
+  border: 3px dotted black;
+  background-color: lightgrey;

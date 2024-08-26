@@ -1,0 +1,23 @@
+body {
+     background-color: skyblue;
+     color: darkgrey;
+}
+
+.background {
+     background-image: url(https://earthtalk.org/wp-content/uploads/daylight-savings-time.jpg);
+     background-repeat: no-repeat;
+     height: 875px;
+     background-size: cover;
+}
+
+.click-here {
+     height: 50px;
+     width: 75px;
+     transform: translate(655px, 250px)
+}
+
+.now-click-here {
+     height: 50px;
+     width: 105px;
+     transform: translate(560px, 320px)
+}

@@ -1,0 +1,115 @@
+body {
+  background-color: #F0EEEB;
+  box-sizing: border-box;
+}
+.page-content {
+  margin-top: 80px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.image-div {
+  height: 315.33px;
+  text-align: center;
+}
+.image-div img {
+  height: 315.33px;
+  border-radius: 13.14px
+}
+.primary-section {
+  margin-top: 24px;
+}
+.title {
+  text-align: center;
+  font-family: dm-sans, sans-serif;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #824BD6;
+}
+.intro header {
+  margin-top: 24px;
+  font-family: Gloock, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #0F0E12;
+}
+.intro p {
+  margin-top: 8px;
+  font-family: dm-sans, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #403C50;
+}
+.about-etc {
+  margin-top: 24px;
+  font-family: dm-sans, sans-serif;
+  line-height: 24px;
+  text-align: left;
+}
+.about header, .looking-for header {
+  font-weight: 500;
+  font-size: 20px;
+  color: #0f0e12;
+}
+.about p, .looking-for p{
+  font-weight: 400;
+  font-size: 16px;
+  color: #403c50;
+  margin-top: 8px;
+}
+.looking-for {
+  margin-top: 24px;
+}
+.buttons {
+  margin-top: 32px;
+  text-align: center;
+}
+.primary {
+  margin: 0 auto;
+  display: inline-block;
+} 
+.primary img {
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  filter: invert(100%);
+}
+.primary button {
+  width: 200px;
+  border-radius: 4px;
+  padding: 0px 16px 0px 16px;
+  background-color: #0F0E12;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height:40px;
+  text-align: center;
+  font-family: dm sans, sans-serif;
+} 
+.secondary {
+  margin: 16px auto 0 auto;
+} 
+.secondary img {
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+}
+.secondary button{
+  width: 200px;
+  border-radius: 4px;
+  padding: 0px 16px 0px 16px;
+  background-color: white;
+  color: #0f0e12;
+  font-size: 16px;
+  font-weight: 600;
+  line-height:40px;
+  text-align: center;
+  border-color: #B6B3C6;
+  border-width: 1px;
+  font-family: dm-sans, sans-serif; 
+} 
