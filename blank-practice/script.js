@@ -1,30 +1,16 @@
-// Function to capitalize and lowercase a string
-function capitalizeAndLowercase(str) {
-    return str.toUpperCase() + str.toLowerCase();
+function Car(make, model, year, honkSound) {
+    this.make = make;
+    this.model = model;
+    this.year = year;
 }
 
-// Function to find the middle index
-function findMiddleIndex(str) {
-    return Math.floor(str.length / 2);
+let jeep = new Car("Jeep", "Cherokee", 1995, "Honk!");
+
+let mazda = new Car("Mazda", "Miata", 2024, "Beep!");
+
+Car.prototype.honk = function() {
+    console.log(this.honkSound);
 }
 
-// Function to return the first half of a string
-function returnFirstHalf(str) {
-    return str.slice(0, findMiddleIndex(str));
-}
-
-// Function to capitalize first half and lowercase second half
-function capitalizeAndLowercaseHalves(str) {
-    const middleIndex = findMiddleIndex(str);
-    return str.slice(0, middleIndex).toUpperCase() + str.slice(middleIndex).toLowerCase();
-}
-
-// Optional: Function to capitalize characters after spaces
-function capitalizeAfterSpaces(str) {
-    return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-}
-
-// Test the functions
-console.log(capitalizeAndLowercase("HelLo")); // => "HELLOhello"
-console.log(findMiddleIndex("Hello")); // => 2
-
+jeep.honk();
+mazda.honk();
